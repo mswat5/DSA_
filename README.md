@@ -1,3 +1,3 @@
 # DSA_
 
-Started from PepCoding level1
+will try at least one LC qn daily
