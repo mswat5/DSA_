@@ -19,7 +19,7 @@ public:
         int k; //to check max element from whole array to check if that element is greatest or not
         for(int i=0;i<candies.size();i++){
             maxi=candies[i]+extraCandies;
-            k=maxi;
+            k=maxi; //k ko aise islie rkkha jisse niche iteration me wo next k lie previous k ka use krke per iteration update kr paye for the sare element ka max 
             for(int i=0;i<candies.size();i++){
                 k=max(candies[i],k);
                 }
